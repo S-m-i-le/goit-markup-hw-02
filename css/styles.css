@@ -1,26 +1,9 @@
-:root {
-  --color-primary-brand: #4d5ae5;
-  --color-pressed-state: #404bbf;
-  --color-text: #434455;
-  --color-black: #2e2f42;
-}
 /*ТЕГИ*/
 button {
   cursor: pointer;
 }
 a {
   text-decoration: none;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  font-weight: 700;
-}
-h3 {
-  font-size: 20px;
-  line-height: 1.2;
-  font-weight: 500;
 }
 ul {
   list-style-type: none;
@@ -30,11 +13,9 @@ header {
 }
 body {
   background-color: #ffffff;
-  color: var(--color-text);
+  color: #434455;
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
 }
 
 /*---- HEADER ----*/
@@ -42,7 +23,7 @@ body {
 .header-logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  color: var(--color-primary-brand);
+  color: #4d5ae5;
   line-height: 1.17;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -55,26 +36,29 @@ body {
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--color-pressed-state);
-  text-decoration: underline;
+  color: #404bbf;
+}
+.header-address-contakt {
+  font-style: normal;
 }
 .header-contakt {
   color: #434455;
-  font-style: normal;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .header-contakt:hover,
 .header-contakt:focus {
-  color: var(--color-pressed-state);
+  color: #404bbf;
 }
 
 /*-- HERO ---*/
 
 .section-hero {
-  background-color: var(--color-black);
+  background-color: #2e2f42;
 }
 .hero-tittle {
   color: #ffffff;
@@ -86,7 +70,7 @@ body {
 }
 .hero-button {
   color: #ffffff;
-  background-color: var(--color-primary-brand);
+  background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -95,11 +79,11 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   color: #ffffff;
-  background-color: var(--color-pressed-state);
+  background-color: #404bbf;
 }
 .hero-button:active {
   color: #ffffff;
-  background-color: var(--color-pressed-state);
+  background-color: #404bbf;
 }
 /*-- FEATURE --*/
 .tittls-feature-team {
@@ -110,8 +94,9 @@ body {
   color: #2e2f42;
 }
 .features-team {
-  color: var(--color-text);
+  color: #434455;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 /*-- OUR TEAM ---*/
@@ -120,6 +105,8 @@ body {
   background-color: #f4f4fd;
 }
 .team-portfolio {
+  font-size: 36px;
+  font-weight: 700;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -133,7 +120,7 @@ body {
 
 /*--- FOOTER --*/
 .footer-page {
-  background-color: var(--color-black);
+  background-color: #2e2f42;
   color: #ffffff;
 }
 .footer-logo {
@@ -151,4 +138,6 @@ body {
 .footer-p {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+
+  line-height: 1.5;
 }
