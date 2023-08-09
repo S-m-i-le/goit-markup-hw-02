@@ -1,0 +1,108 @@
+:root {
+  --color-primary-brand: #4d5ae5;
+  --color-pressed-state: #404bbf;
+  --color-text: #434455;
+  --color-black: #2e2f42;
+}
+/*ТЕГИ*/
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.071;
+  font-weight: 700;
+}
+h2 {
+  font-size: 36px;
+  line-height: 1.111;
+  font-weight: 700;
+}
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  background-color: #ffffff;
+}
+body {
+  background-color: #ffffff;
+  color: var(--color-black);
+  font-family: Roboto, sans-serif;
+ /* font-size: 16px;*/
+  line-height: 1.5;
+  font-weight: 400;
+}
+footer {
+  background-color: var(--color-black);
+  color: #ffffff;
+}
+/*---- Конец блока ТЕГИ ----*/
+
+.header-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  color: #2e2f42;
+  line-height: 1.17;
+  font-weight: 700;
+}
+.logo-web {
+  color: #4d5ae5;
+}
+.header-link {
+  color: #2e2f42;
+  font-weight: 500;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-pressed-state);
+  text-decoration: underline;
+}
+.header-contakt {
+  color: var(--color-text);
+}
+.header-contakt:hover,
+.header-contakt:focus {
+  color: var(--color-pressed-state);
+}
+.section-hero {
+  background-color: var(--color-black);
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: var(--color-primary-brand);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #ffffff;
+  background-color: var(--color-primary-brand);
+}
+.hero-button:active {
+  color: #ffffff;
+  background-color: var(--color-pressed-state);
+}
+.our-team {
+  background-color: #f4f4fd;
+}
+.rows-portfolio {
+  background-color: #e7e9fc;
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  color: #f4f4fd;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.logo-web {
+  color: #4d5ae5;
+}
