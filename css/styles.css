@@ -129,12 +129,8 @@ body {
 .team-people {
   background-color: #ffffff;
 }
+/*--PORTFOLIO - все классы с предыдущей секции !!!--*/
 
-/*--PORTFOLIO --*/
-
-.rows-portfolio {
-  background-color: #ffffff;
-}
 /*--- FOOTER --*/
 .footer-page {
   background-color: var(--color-black);
